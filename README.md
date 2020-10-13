@@ -1,6 +1,6 @@
 # FBCrack 2020
 
-- pkg install git python2
+- pkg install git python
 - pip install --upgrade pip
 - git clone https://github.com/BlackSelakangan/FBCrack
 - cd FBCrack
