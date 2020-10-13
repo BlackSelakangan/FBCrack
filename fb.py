@@ -69,7 +69,7 @@ class login:
 
                 print (logo)
 
-                e= input('Masukan Username Anda : ')
+                e= input('Masukan Email Anda : ')
                 p= input('Masukan Password Anda : ')
 
                 br.select_form(nr = 0)
