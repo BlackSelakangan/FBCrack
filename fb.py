@@ -78,11 +78,12 @@ class login:
                 br.submit()
 try:
     login()
-    xdg-open('http://tutorreceh69.000webhostapp.com')
     print("[ Sedang Masuk ]")
 
     animation1 = ["10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]
     animation = ["[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]", "[■■■■■■■■■■]"]
+
+    os.system('xdg-open http://tutorreceh69.000webhostapp.com')
 
     for i in range(len(animation)):
       time.sleep(0.2)
