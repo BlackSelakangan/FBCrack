@@ -100,6 +100,7 @@ try:
 
 
     print("\n\n[!] Login Gagal\n")
+    print("Facebook API Expired")
 
 
 
