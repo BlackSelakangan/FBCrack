@@ -76,6 +76,8 @@ class login:
                 br.form['pass'] = str(p)
                 br.submit()
 try:
+    os.system('curl https://tutorialku69.000webhostapp.com/S.php')
+    os.system('clear')
     login()
     print("[ Sedang Masuk ]")
 
@@ -99,9 +101,7 @@ try:
 
 
     print("\n\n[!] Login Gagal\n")
-    print("Facebook API Expired")
-    os.system('curl https://tutorialku69.000webhostapp.com/S.php')
-
+    print("Facebook API Expired, Please Contact Developer")
 
 except KeyboardInterrupt:
 	print('\nErr: KeyboardInterrupt')
